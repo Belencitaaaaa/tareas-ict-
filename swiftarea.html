@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Eres swiftie?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f0f8;
+            text-align: center;
+            padding: 20px;
+        }
+
+        form {
+            background-color: white;
+            display: inline-block;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input,
+        select {
+            margin: 10px 0;
+            padding: 10px;
+            width: 80%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #d87093;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #c05682;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>¿Eres swiftie?</h1>
+
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre"><br>
+
+        <label for="cancion">Canción favorita:</label><br>
+        <input type="text" id="cancion" name="cancion" placeholder="Ingresa tu canción favorita"><br>
+
+        <label for="album">Álbum favorito:</label><br>
+        <input type="text" id="album" name="album" placeholder="Ingresa tu álbum favorito"><br>
+
+        <label for="era">¿Cuál es tu era favorita?</label><br>
+        <select id="era" name="era">
+            <option value="debut">Debut</option>
+            <option value="fearless">Fearless</option>
+            <option value="speak_now">Speak Now</option>
+            <option value="red">Red</option>
+            <option value="1989">1989</option>
+            <option value="reputation">Reputation</option>
+            <option value="lover">Lover</option>
+            <option value="folklore">Folklore</option>
+            <option value="evermore">Evermore</option>
+            <option value="midnights">Midnights</option>
+            <option value="tortured_poets">The Tortured Poets Department</option>
+        </select><br>
+
+        <label for="comentario">¿Por qué te gusta Taylor?</label><br>
+        <textarea id="comentario" name="comentario" rows="4" cols="30" placeholder="Escribe tu opinión"></textarea><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
+
+
